@@ -1,0 +1,9 @@
+clear
+cat dog.txt
+echo "(づ｡◕‿‿◕｡)づ < Welcome Dillon!"
+
+
+d=$( date )
+echo The date is $d
+cpu=$( ps -A -o %cpu | awk '{s+=$1} END {print s "%"}' )
+echo CPU at about $cpu
